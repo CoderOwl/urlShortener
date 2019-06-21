@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+   <body>
+    <h1>Sign In</h1>
+    <form action="" method="post" novalidate>
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.short.label }}<br>
+            {{ form.short(size=32) }}
+        </p>
+        <p>
+            {{ form.long.label }}<br>
+            {{ form.long(size=32) }}
+        </p>
+        <p>{{ form.submit() }}</p>
+    </form>
+    </body>
+</html>
