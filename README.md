@@ -8,6 +8,6 @@ Initialize the virtualenv `venv` and run `python server.py`. The application run
 
 `/`: Welcome screen
 
-'/createUrl': Form to submit short key to long url mapping. Example: short = fb long = https://www.facebook.com/
+`/createUrl`: Form to submit short key to long url mapping. Example: short = fb long = https://www.facebook.com/
 
-'/<short>': Redirects to the long url if short key is found. 
+`/<short>`: Redirects to the long url if short key is found. 
